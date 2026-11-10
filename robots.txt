@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Remplacez par l'adresse publique réelle du site après publication
+Sitemap: https://VOTRE-UTILISATEUR.github.io/silver-corporate/sitemap.xml

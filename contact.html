@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — SILVER CORPORATE</title>
+<meta name="description" content="Contactez SILVER CORPORATE à Pointe-Noire : e-mail, WhatsApp, demande de devis, partenariat, candidature et collaboration.">
+<meta name="theme-color" content="#0b1f3f">
+<link rel="canonical" href="contact.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="SILVER CORPORATE">
+<meta property="og:title" content="Contact — SILVER CORPORATE">
+<meta property="og:description" content="Contactez SILVER CORPORATE à Pointe-Noire : e-mail, WhatsApp, demande de devis, partenariat, candidature et collaboration.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-page="contact.html">
+<main id="contenu">
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Accueil</a> › Contact</div>
+    <h1>Contact</h1>
+    <p>Écrivez-nous, demandez un devis, proposez un partenariat ou déposez une candidature.</p>
+  </div>
+</section>
+
+<section class="section section-white"><div class="container">
+  <div class="split contact-layout">
+    <div class="reveal">
+      <span class="eyebrow">Coordonnées</span><h2>Parlons-nous</h2>
+      <div class="card" style="margin-bottom:1rem"><div class="icon-tile"><span data-icon="mail" style="display:contents"></span></div><h3>E-mail</h3><p><a data-config-email href="#">…</a></p></div>
+      <div class="card" style="margin-bottom:1rem"><div class="icon-tile"><span data-icon="pin" style="display:contents"></span></div><h3>Localisation</h3><p data-config-location></p></div>
+      <div class="card" style="margin-bottom:1rem"><div class="icon-tile"><span data-icon="phone" style="display:contents"></span></div><h3>WhatsApp</h3><p data-whatsapp-note></p><p><a class="btn btn-primary btn-sm" data-whatsapp href="#">Écrire sur WhatsApp</a></p></div>
+      <div class="card"><h3>Réseaux sociaux</h3><div class="social" data-social></div></div>
+    </div>
+
+    <div class="reveal">
+      <div class="tabs" role="tablist" aria-label="Type de demande"><button type="button" class="tab" role="tab" data-panel="contact" aria-selected="true">Contact</button><button type="button" class="tab" role="tab" data-panel="devis" aria-selected="false">Demande de devis</button><button type="button" class="tab" role="tab" data-panel="partenariat" aria-selected="false">Partenariat</button><button type="button" class="tab" role="tab" data-panel="candidature" aria-selected="false">Candidature</button><button type="button" class="tab" role="tab" data-panel="collaboration" aria-selected="false">Collaboration</button></div>
+
+      <div class="form-panel" id="contact" role="tabpanel">
+        <form class="form" data-form="contact" data-title="Contact général" aria-label="Contact">
+          <div class="form-grid">
+            <div class="field"><label for="contact-nom">Nom complet <span class="req">*</span></label><input id="contact-nom" name="nom" type="text" required autocomplete="name"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="contact-email">E-mail <span class="req">*</span></label><input id="contact-email" name="email" type="email" required autocomplete="email"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="contact-tel">Téléphone</label><input id="contact-tel" name="tel" type="tel" autocomplete="tel"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="contact-objet">Objet</label><input id="contact-objet" name="objet" type="text" autocomplete="off"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field full"><label for="contact-message">Message <span class="req">*</span></label><textarea id="contact-message" name="message" required minlength="10"></textarea><div class="field-error" aria-live="polite"></div></div>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit" data-channel="email">Envoyer par e-mail</button>
+            <button class="btn btn-blue" type="submit" data-channel="whatsapp">Envoyer par WhatsApp</button>
+          </div>
+          <p class="form-hint">Ces boutons ouvrent votre application de messagerie ou WhatsApp avec votre message prérempli. La demande n'est transmise qu'une fois le message envoyé depuis cette application.</p>
+          <div class="form-status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="form-panel" id="devis" role="tabpanel" hidden>
+        <form class="form" data-form="devis" data-title="Demande de devis" aria-label="Demande de devis">
+          <div class="form-grid">
+            <div class="field"><label for="devis-nom">Nom complet <span class="req">*</span></label><input id="devis-nom" name="nom" type="text" required autocomplete="name"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="devis-email">E-mail <span class="req">*</span></label><input id="devis-email" name="email" type="email" required autocomplete="email"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="devis-tel">Téléphone</label><input id="devis-tel" name="tel" type="tel" autocomplete="tel"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="devis-objet">Prestation concernée <span class="req">*</span></label><input id="devis-objet" name="objet" type="text" required autocomplete="off"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field full"><label for="devis-details">Détails de votre besoin (quantité, délai…) <span class="req">*</span></label><textarea id="devis-details" name="details" required minlength="10"></textarea><div class="field-error" aria-live="polite"></div></div>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit" data-channel="email">Envoyer par e-mail</button>
+            <button class="btn btn-blue" type="submit" data-channel="whatsapp">Envoyer par WhatsApp</button>
+          </div>
+          <p class="form-hint">Ces boutons ouvrent votre application de messagerie ou WhatsApp avec votre message prérempli. La demande n'est transmise qu'une fois le message envoyé depuis cette application.</p>
+          <div class="form-status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="form-panel" id="partenariat" role="tabpanel" hidden>
+        <form class="form" data-form="partenariat" data-title="Proposition de partenariat" aria-label="Partenariat">
+          <div class="form-grid">
+            <div class="field"><label for="partenariat-nom">Nom du contact <span class="req">*</span></label><input id="partenariat-nom" name="nom" type="text" required autocomplete="name"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="partenariat-organisation">Organisation <span class="req">*</span></label><input id="partenariat-organisation" name="organisation" type="text" required autocomplete="off"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="partenariat-email">E-mail <span class="req">*</span></label><input id="partenariat-email" name="email" type="email" required autocomplete="email"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="partenariat-tel">Téléphone</label><input id="partenariat-tel" name="tel" type="tel" autocomplete="tel"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field full"><label for="partenariat-message">Présentation de votre proposition <span class="req">*</span></label><textarea id="partenariat-message" name="message" required minlength="10"></textarea><div class="field-error" aria-live="polite"></div></div>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit" data-channel="email">Envoyer par e-mail</button>
+            <button class="btn btn-blue" type="submit" data-channel="whatsapp">Envoyer par WhatsApp</button>
+          </div>
+          <p class="form-hint">Ces boutons ouvrent votre application de messagerie ou WhatsApp avec votre message prérempli. La demande n'est transmise qu'une fois le message envoyé depuis cette application.</p>
+          <div class="form-status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="form-panel" id="candidature" role="tabpanel" hidden>
+        <form class="form" data-form="candidature" data-title="Candidature" aria-label="Candidature">
+          <div class="form-grid">
+            <div class="field"><label for="candidature-nom">Nom complet <span class="req">*</span></label><input id="candidature-nom" name="nom" type="text" required autocomplete="name"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="candidature-email">E-mail <span class="req">*</span></label><input id="candidature-email" name="email" type="email" required autocomplete="email"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="candidature-tel">Téléphone</label><input id="candidature-tel" name="tel" type="tel" autocomplete="tel"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="candidature-type">Type de candidature <span class="req">*</span></label><select id="candidature-type" name="type" required><option value="">Choisir…</option><option value="Recrutement">Recrutement</option><option value="Stage">Stage</option><option value="Bénévolat">Bénévolat</option><option value="Formation">Formation</option><option value="Autre">Autre</option></select><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="candidature-objet">Poste ou opportunité visé(e) <span class="req">*</span></label><input id="candidature-objet" name="objet" type="text" required autocomplete="off"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field full"><label for="candidature-message">Message de motivation / présentation <span class="req">*</span></label><textarea id="candidature-message" name="message" required minlength="10"></textarea><div class="field-error" aria-live="polite"></div></div>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit" data-channel="email">Envoyer par e-mail</button>
+            <button class="btn btn-blue" type="submit" data-channel="whatsapp">Envoyer par WhatsApp</button>
+          </div>
+          <p class="form-hint">Ces boutons ouvrent votre application de messagerie ou WhatsApp avec votre message prérempli. La demande n'est transmise qu'une fois le message envoyé depuis cette application.</p>
+          <div class="form-status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="form-panel" id="collaboration" role="tabpanel" hidden>
+        <form class="form" data-form="collaboration" data-title="Proposition de collaboration" aria-label="Collaboration">
+          <div class="form-grid">
+            <div class="field"><label for="collaboration-nom">Nom du contact <span class="req">*</span></label><input id="collaboration-nom" name="nom" type="text" required autocomplete="name"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="collaboration-organisation">Organisation</label><input id="collaboration-organisation" name="organisation" type="text" autocomplete="off"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="collaboration-email">E-mail <span class="req">*</span></label><input id="collaboration-email" name="email" type="email" required autocomplete="email"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field"><label for="collaboration-objet">Projet ou domaine concerné <span class="req">*</span></label><input id="collaboration-objet" name="objet" type="text" required autocomplete="off"><div class="field-error" aria-live="polite"></div></div>
+            <div class="field full"><label for="collaboration-message">Votre proposition <span class="req">*</span></label><textarea id="collaboration-message" name="message" required minlength="10"></textarea><div class="field-error" aria-live="polite"></div></div>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit" data-channel="email">Envoyer par e-mail</button>
+            <button class="btn btn-blue" type="submit" data-channel="whatsapp">Envoyer par WhatsApp</button>
+          </div>
+          <p class="form-hint">Ces boutons ouvrent votre application de messagerie ou WhatsApp avec votre message prérempli. La demande n'est transmise qu'une fois le message envoyé depuis cette application.</p>
+          <div class="form-status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<script src="js/config.js"></script>
+<script src="js/layout.js"></script>
+<script src="data/services.js"></script>
+<script src="data/offers.js"></script>
+<script src="data/projects.js"></script>
+<script src="data/news.js"></script>
+<script src="data/opportunities.js"></script>
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/services.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/news.js"></script>
+</body>
+</html>
